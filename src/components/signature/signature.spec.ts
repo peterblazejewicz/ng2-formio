@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/globals/jasmine/index.d.ts" />
 import { FormGroup } from '@angular/forms';
 import { SignatureComponent, SignatureOptions } from './signature';
 import { FORMIO_BOOTSTRAP } from '../../templates/bootstrap.tpl';

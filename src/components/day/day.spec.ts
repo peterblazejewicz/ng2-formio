@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/globals/jasmine/index.d.ts" />
 import { FormGroup } from '@angular/forms';
 import { DayComponent, DayOptions } from './day';
 import { FORMIO_BOOTSTRAP } from '../../templates/bootstrap.tpl';

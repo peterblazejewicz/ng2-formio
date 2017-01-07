@@ -10,13 +10,20 @@
     "noImplicitAny": true,
     "declaration": true,
     "suppressImplicitAnyIndexErrors": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types": [
+      "node", "jasmine"
+    ],
+    "lib": ["es6", "dom"]
   },
   "files": [
-    "typings/index.d.ts",
     "src/index.ts"
   ],
   "exclude": [
-    "dist"
+    "dist",
+    "node_modules"
   ]
 }

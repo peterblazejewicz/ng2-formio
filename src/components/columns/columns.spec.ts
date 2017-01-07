@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/globals/jasmine/index.d.ts" />
 import { FormGroup, FormControl } from '@angular/forms';
 import { ColumnsComponent, ColumnsOptions } from './columns';
 import { FORMIO_BOOTSTRAP } from '../../templates/bootstrap.tpl';

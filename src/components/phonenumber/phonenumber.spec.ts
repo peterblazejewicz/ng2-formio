@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/globals/jasmine/index.d.ts" />
 import { FormGroup } from '@angular/forms';
 import { FormioComponentComponent } from '../../formio-component.component';
 import { PhoneNumberComponent, PhoneNumberOptions } from './phonenumber';
